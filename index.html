@@ -43,9 +43,8 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
     <!-- <script src="./assetku/js/widget_disabilitas.js"></script> -->
-    <script data-src="/assetku/js/widget_disabilitas.js" defer></script>
+    <script data-src="/frontend-opendata/assetku/js/widget_disabilitas.js" defer></script>
     <script>
-      // inject manual supaya Vite nggak bundling
       const extScript = document.createElement("script");
       extScript.src = document.querySelector("script[data-src]").getAttribute("data-src");
       extScript.defer = true;
